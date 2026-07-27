@@ -1,8 +1,27 @@
 aid: get-lighthouse
 name: Get Lighthouse
-description: Get Lighthouse is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Get Lighthouse (Lighthouse Lessons) is a management-training and leadership-development
+  company that helps managers run better one-on-ones and grow their teams. It offers
+  bite-sized, actionable online management-training programs, including a 1-on-1 Master Class,
+  Managing Up, and the Secret Habits of Senior Leaders, delivered as self-paced solo study
+  and structured team training, alongside a widely-read management and leadership blog. Get
+  Lighthouse is a content and training provider with no public developer API, SDK, or
+  developer portal; this API Evangelist profile captures its web identity and domain-security
+  posture. It is a portfolio company of 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/get-lighthouse/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/1470768/610540_566227.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Management Training
+- Leadership Development
+- Coaching
+- Online Courses
+- One-on-Ones
+- Team Management
+- Education
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/get-lighthouse-domain-security.yml
 - type: Website
   url: https://getlighthouse.com
+- type: Blog
+  url: https://getlighthouse.com/blog
+- type: TermsOfService
+  url: https://m.getlighthouse.com/tos
+- type: PrivacyPolicy
+  url: https://m.getlighthouse.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
